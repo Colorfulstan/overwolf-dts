@@ -930,6 +930,8 @@ export interface ODKWindow {
   left: number
   /** Indicates if the window is currently visible or minimized.*/
   isVisible: boolean
+  /** Indicates the state of the window */
+  state: 'Normal' | 'Minimized' | 'Maximized' | 'Closed'
 }
 
 /** The ID or the name of a window
