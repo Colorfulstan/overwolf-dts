@@ -181,6 +181,7 @@ export namespace ODK {
         |'teams'
         |'abilities'
         |'level'
+        |'announcer'
 
       interface AvailableFeaturesMapLOL extends ODK.GameEvents.AvailableFeaturesMap {
         matchState: TBuggedBoolean
@@ -198,6 +199,7 @@ export namespace ODK {
         teams: TBuggedBoolean
         abilities: TBuggedBoolean
         level: TBuggedBoolean
+        announcer: TBuggedBoolean
       }
 
       type TCategoriesLOL = 'summoner_info'|'game_info'|'level'
